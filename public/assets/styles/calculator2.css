@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Handjet&family=Orbitron&family=Oswald:wght@700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.fondo {
+  background-image: url("../../assets/images/fondo-final.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: #CDB870;
+}
+
+.padding1 {
+  padding: 0vh 33vw;
+}
+
+.bg-negro {
+  background-color: #1E1E1E;
+  margin-left: 5vw;
+  width: 22vw;
+  height: 26vh;
+}
+.bg-negro input {
+  background-color: #959595;
+  border-radius: 40%;
+  padding: 5px;
+  margin-top: 20px;
+  width: 20%;
+  color: white;
+  font-family: "Orbitron", "sans-serif";
+  box-shadow: black 5px 5px 5px 2px;
+}
+
+.screen-blue input {
+  background-color: #CDD8D7;
+  padding: 0vh 3vw;
+  margin-top: 31vh;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+  width: 20vw;
+  height: 14vh;
+  border-radius: 2%;
+  color: #2d3333;
+  font-size: 3rem;
+  font-family: "Orbitron", "sans-serif";
+}
+
+.flex-section {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=calculator2.css.map */

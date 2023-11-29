@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora Smart-Casio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- mi link -->
+    <link rel="stylesheet" href="./public/assets/styles/calculator2.css">
+     <!-- script de calculator.js -->
+     <script type="text/javascript"  src="./js/calculator.js" charset="UTF-8"></script> 
+  </head>
+  <body>
+   <section class="fondo padding1 text-center flex-section">
+    <div class="screen-blue">
+      <input
+      type="text"
+      id="screen"
+     />
+    </div>
+    
+      <div class="bg-negro">
+        
+        
+        <div>
+          <input type="button" value="1"  onclick="addSymbol('1')"/>
+          <input type="button" value="2" onclick="addSymbol('2')" />
+          <input type="button" value="3" onclick="addSymbol('3')" />
+          <input type="button" value="+" onclick="addSymbol('+')" style="background-color: #D38660;"/>
+          
+        </div>
+        
+        <div>
+          <input type="button" value="4" onclick="addSymbol('4')" />
+          <input type="button" value="5" onclick="addSymbol('5')" />
+          <input type="button" value="6" onclick="addSymbol('6')" />
+          <input type="button" value="-" onclick="addSymbol('-')" style="background-color: #D38660;"/>
+        </div>
+        
+        <div>
+          <input type="button" value="7" onclick="addSymbol('7')" />
+          <input type="button" value="8" onclick="addSymbol('8')" />
+          <input type="button" value="9" onclick="addSymbol('9')" />
+          <input type="button" value="*" onclick="addSymbol('*')" style="background-color: #D38660;"/>
+        </div>
+        
+        <div>
+          <input type="button" value="=" onclick="calculate()" style="background-color: #d36060;"/>
+          <input type="button" value="C" onclick="clearScreen()" />
+          <input type="button" value="0" onclick="addSymbol('0')" />
+          <input type="button" value="/" onclick="addSymbol('/')" style="background-color: #D38660;"/>
+        </div>
+      </div>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
